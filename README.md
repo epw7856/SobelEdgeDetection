@@ -1,5 +1,5 @@
 # University of Pittsburgh - ECE2195 Final Project
-This repo is the FPGA implementation of edge detection image processing using the Sobel Algorithm. The first project contains VHDL code and a testbench for performing a simulation of the image processing capabilities. The second project is the synthesizable version targeted for the Xilinx Artix-7 development board. The synthesizable version utilizes asynchronous serial communication (UART) I/O to receive raw image data from a PC/Mac and then send back the processed image.
+This repo is the FPGA implementation of an edge detection image processor that utilizes the Sobel Algorithm. The first project contains VHDL code and a testbench for performing a simulation of the image processing capabilities. The second project is the synthesizable version targeted for the Xilinx Artix-7 development board. The synthesizable version utilizes asynchronous serial communication (UART) I/O to receive raw image data from a PC/Mac and then send back the processed image.
 
 The following instructions provide details on how to run the simulation project code in Vivado to produce an edge-detected output image from an input image. The code is currently configured to process only 768x512 sized 24-bit-per-pixel images.
 
